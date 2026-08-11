@@ -6,3 +6,10 @@
 
 # Output files
 *.out
+
+# VS Code
+.vscode/
+
+# Windows
+thumbs.db
+Desktop.ini
