@@ -8,9 +8,9 @@ using namespace std;
 int main()
 {
 
-    int arr[] = {2, 7, 11, 15};
+    int arr[] = {10, 3, 20, 40};
     int n = 4;
-    int tar = 9;
+    int target = 13;
 
     bool found = false;
 
@@ -18,16 +18,16 @@ int main()
     {
         for (int j = i + 1; i < n; i++)
         {
-            if (arr[i] + arr[j] == tar)
+            if (arr[i] + arr[j] == target)
             {
                 found = true;
-                cout << arr[i] << "+" << arr[j] << "=" << tar;
+                cout << arr[i] << "+" << arr[j] << "=" << target << endl;
                 break;
             }
-        }
-        if (!found)
-        {
-            cout << "no pair found " << endl;
+            if (!found)
+            {
+                cout << "sum are not found" << endl;
+            }
         }
     }
     return 0;
