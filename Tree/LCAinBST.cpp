@@ -20,11 +20,11 @@ public:
 
 node *LCA(node *root, int p, int q)
 {
+
     if (root == NULL)
     {
         return NULL;
     }
-
     if (p < root->data && q < root->data)
     {
         return LCA(root->left, p, q);
@@ -35,7 +35,6 @@ node *LCA(node *root, int p, int q)
     }
     return root;
 }
-
 int main()
 {
 
