@@ -1,15 +1,12 @@
-# Executable files
-* .exe
-
-# Object files
-*.o
-
-# Output files
+# C/C++ compiled files
+*.exe
 *.out
+*.o
+*.obj
 
 # VS Code
 .vscode/
 
-# Windows
-thumbs.db
-Desktop.ini
+# OS files
+.DS_Store
+Thumbs.db
